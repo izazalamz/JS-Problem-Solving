@@ -4,7 +4,8 @@ A collection of JavaScript problems I’ve solved while practicing core concepts
 
 ## Topics Covered
 
-- Fundamentals
+### Fundamentals
+
 - Closures
 
 (More topics will be added as I progress)
