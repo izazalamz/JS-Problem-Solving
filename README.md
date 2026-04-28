@@ -2,23 +2,15 @@
 
 A collection of JavaScript practice problems focused on building stronger problem-solving skills through hands-on solutions.
 
-## Topics Covered
+## Topics
 
 ### Closure
 
-- Private state through lexical scope
-- Factory functions
-- Independent function instances
-- Memoization and rate limiting
-- Stateful utility patterns
+- See topic guide: [`closure/README.md`](closure/README.md)
 
 ### Arrays and Objects
 
-- Array iteration and transformation
-- Object lookup and grouping
-- Deduplication with `Set`
-- Counting with `Map`
-- Filtering and comparison patterns
+- See topic guide: [`arrays-and-objects/README.md`](arrays-and-objects/README.md)
 
 (More topics will be added as progress continues.)
 
@@ -31,21 +23,21 @@ A collection of JavaScript practice problems focused on building stronger proble
 
 ## Structure
 
-Problems are organized by topic and difficulty:
+Problems are organized by topic and difficulty.
 
-```
+```text
 closure/
 ├── easy/
 ├── medium/
-└── hard/
+└── hard/      -> details in `closure/README.md`
 
 arrays-and-objects/
 ├── easy/
 ├── medium/
-└── hard/
+└── hard/      -> details in `arrays-and-objects/README.md`
 ```
 
-Each file contains:
+Each problem file contains:
 
 - A problem statement
 - A JavaScript solution
@@ -53,63 +45,13 @@ Each file contains:
 
 ## Progress
 
-### Overall
-
-- Completed: 18 problems
+- Completed: 23 problems
 - Easy: 9
 - Medium: 8
-- Hard: 1
-
-### Closure
-
-- Completed: 9 problems
-- Easy: 5
-- Medium: 3
-- Hard: 1
-
-#### Completed Problems
-
-**Easy**
-
-- `01-basic-counter`
-- `02-private-variable`
-- `03-multiplier-factory`
-- `04-greet-with-name`
-- `05-click-counter`
-
-**Medium**
-
-- `06-independent-counters`
-- `07-memoized-sum`
-- `08-rate-limiter`
-
-**Hard**
-
-- `09-todo-store`
-
-### Arrays and Objects
-
-- Completed: 9 problems
-- Easy: 4
-- Medium: 5
-- Hard: 0
-
-#### Completed Problems
-
-**Easy**
-
-- `01-find-user-by-id`
-- `02-get-unique-roles`
-- `03-count-active-users`
-- `04-check-if-tag-exists`
-
-**Medium**
-
-- `05-group-users-by-role`
-- `06-count-occurrences`
-- `07-remove-duplicate-users`
-- `08-find-common-values`
-- `09-transform-products`
+- Hard: 6
+- Topic breakdown:
+  - Closure: see [`closure/README.md`](closure/README.md)
+  - Arrays and Objects: see [`arrays-and-objects/README.md`](arrays-and-objects/README.md)
 
 ## Tech Used
 
@@ -120,7 +62,7 @@ Each file contains:
 
 - All solutions are written for learning and practice
 - The focus is on understanding patterns, not just getting the correct answer
-- The repository structure will grow as more problem sets are added
+- Topic-specific details are maintained in each topic's own README
 
 ## Started On
 
