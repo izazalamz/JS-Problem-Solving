@@ -33,6 +33,7 @@ A collection of JavaScript practice problems focused on building stronger proble
 
 Problems are organized by topic and difficulty:
 
+```
 closure/
 ├── easy/
 ├── medium/
@@ -42,6 +43,7 @@ arrays-and-objects/
 ├── easy/
 ├── medium/
 └── hard/
+```
 
 Each file contains:
 
