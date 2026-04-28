@@ -25,16 +25,16 @@ A collection of JavaScript practice problems focused on building stronger proble
 
 Problems are organized by topic and difficulty.
 
-```text
+```
 closure/
 ├── easy/
 ├── medium/
-└── hard/      -> details in [`closure/README.md`](closure/README.md)
-
+└── hard/
 arrays-and-objects/
 ├── easy/
 ├── medium/
-└── hard/      -> details in [`arrays-and-objects/README.md`](arrays-and-objects/README.md)
+└── hard/
+```
 
 Each problem file contains:
 
@@ -66,4 +66,7 @@ Each problem file contains:
 ## Started On
 
 April 2026
+
+```
+
 ```
