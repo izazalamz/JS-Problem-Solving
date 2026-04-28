@@ -29,13 +29,12 @@ Problems are organized by topic and difficulty.
 closure/
 ├── easy/
 ├── medium/
-└── hard/      -> details in `closure/README.md`
+└── hard/      -> details in [`closure/README.md`](closure/README.md)
 
 arrays-and-objects/
 ├── easy/
 ├── medium/
-└── hard/      -> details in `arrays-and-objects/README.md`
-```
+└── hard/      -> details in [`arrays-and-objects/README.md`](arrays-and-objects/README.md)
 
 Each problem file contains:
 
@@ -67,3 +66,4 @@ Each problem file contains:
 ## Started On
 
 April 2026
+```
