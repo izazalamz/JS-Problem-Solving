@@ -21,14 +21,14 @@ Notes:
 */
 
 function findCommonValues(arr1, arr2) {
-    const commonValues = []
-    const checked = new Set(arr1)
-    for (const value in arr2){
-        if (checked.has(value)){
-            commonValues.push(value)
+    const commonValues = new Set()
+    const check = new Set(arr1)
+    for (const value of arr2){
+        if (check.has(value)){
+            commonValues.add(value)
         }
     }
-    return commonValues
+    return [...commonValues]
 }
 const arr1 = [1, 2, 3, 4]
 const arr2 = [3, 4, 5, 6]
